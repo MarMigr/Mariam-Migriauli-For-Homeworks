@@ -1,8 +1,6 @@
 print('Please Fill Your Information')
-Name=input('Name: ') 
-Surname=input('Surname: ')  
-Age=input('Age: ')
+name=input('Name: ') 
+surname=input('Surname: ')  
+age=input('Age: ')
 
-print('Hello',Name,Surname,'you are',Age, 'years old')
-
-"# Mariam-Migriauli-For-Homeworks" 
+print('Hello',name,surname,'you are',age, 'years old')
