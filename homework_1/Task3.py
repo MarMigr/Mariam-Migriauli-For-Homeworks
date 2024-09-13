@@ -3,7 +3,7 @@ BC=int(input('BC: '))
 AC=int(input('AC: '))
 
 perimeter=AB+BC+AC
-area=BC*AC
+area=BC*AC/2
 
 print('Perimeter Of this Triangle Is: ',perimeter)
 
