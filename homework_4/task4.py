@@ -1,13 +1,19 @@
-#4.	* დაწერეთ პროგრამა რომელიც მიიღებს არაუარყოფით მთელ რიცხვს - n.  0 <= n < 20. Პროგრამამ უნდა 
-# იპოვოს მიმდევრობის n-ური წევრი. Მიმდევრობა განისაზღვრება შემდეგნაირად: ნულოვანი წევრი არის 0, 
-# პირველი წევრი არის 1, ხოლო ყოველი მომდევნო წევრი არის წინა ორი წევრის ჯამი. Მაგალითად:
-#Enter number: 4
+n = int(input('Please enter number from 1 to 20- '))
+
+if 0 <= n < 20:
+
+    n1 = 0 
+    n2 = 1
 
 
-num_from_user=int(input('Please enter number form 1 to 20- '))
+    for i in range(2, n + 1):
+        n1, n2 = n2, n1 + n2
 
-a=(i for i in range(1,4181))
-#b=a+(i for i in range(1,4181))
-
-print(a)
-#0,1,2,3,5,8,13,21,34,55,99
+    if n == 0:
+        fibbonacci_num = n1
+    else:
+        fibbonacci_num = n2
+        
+        print('Fibbonacci number is- ',fibbonacci_num)   
+         
+else : print('Enter number from 1 to 20-')
