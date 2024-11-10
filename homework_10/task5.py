@@ -1,7 +1,8 @@
-def reverse_text(text):
-    return text[::-1]
+def revers_string(text):
+    return text [::-1]
 
 
-print(reverse_text('imairam'))
-print(reverse_text('airatmaz'))
-print(reverse_text('looc si nohtyp'))
+print(revers_string('iram'))
+print(revers_string('nohtyp'))
+print(revers_string('4202snoitcele'))
+
