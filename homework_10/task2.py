@@ -1,16 +1,5 @@
-def max_num(*args) :
-    return max(*args)
-
-
-print(max_num(7,9,100,1001,10000))
-
-
-
-print(max_num(-1,-10,-10000,5))
-
-
-
-print(max_num(999,-999,-10000,0))
-
-
-print(max_num(0.1,0.001))
+def max_num(num,*args):
+    return max(num,*args)
+print(max_num(1,100,1001))
+print(max_num(-95,100,-1785))
+print(max_num(0,-9000100,-18895))

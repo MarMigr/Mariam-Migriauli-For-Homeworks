@@ -1,12 +1,14 @@
-def simple_num(num):
-    result = 0
-    for i in range(2,num):
-        if num % i ==0:
+def simple_num(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
             return False
-        return True
+    return True
 
-print(simple_num(5))        
-print(simple_num(6))    
-print(simple_num(10))  
-print(simple_num(13))   
-print(simple_num(3))        
+
+print(simple_num(200))    
+print(simple_num(11))   
+print(simple_num(17))  
+print(simple_num(25))  
+

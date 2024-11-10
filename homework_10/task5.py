@@ -5,3 +5,4 @@ def revers_string(text):
 print(revers_string('iram'))
 print(revers_string('nohtyp'))
 print(revers_string('4202snoitcele'))
+
