@@ -1,0 +1,13 @@
+{
+    "max_purchase_by_quantity_users": [
+        "mariam"
+    ],
+    "max_purchase_by_total_value_users": [
+        "nini"
+    ],
+    "average_purchase_value": 78.596,
+    "average_purchase_quantity": 6.7,
+    "most_sold_products": [
+        "apples"
+    ]
+}

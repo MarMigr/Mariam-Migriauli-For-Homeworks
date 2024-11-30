@@ -1,0 +1,6 @@
+mariam,apples,15,0.25
+giorgi,pen,5,1
+nika,bread,2,3
+gela,tissues,2,0.6
+maka,gum,10,0.1
+keta,box,3,1.89
