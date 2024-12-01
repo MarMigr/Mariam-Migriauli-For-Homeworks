@@ -1,0 +1,10 @@
+mariam,apples,15,0.25
+giorgi,pen,5,1
+nika,bread,2,3
+kato,cheese,9,15
+lela,candy,8,1.98
+nona,yogurt,3,7.5
+gela,tissues,2,0.6
+maka,gum,10,0.1
+nini,bag,10,59
+keta,box,3,1.89

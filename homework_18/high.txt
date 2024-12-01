@@ -1,0 +1,4 @@
+kato,cheese,9,15
+lela,candy,8,1.98
+nona,yogurt,3,7.5
+nini,bag,10,59
