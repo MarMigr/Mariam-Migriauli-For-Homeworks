@@ -1,0 +1,6 @@
+pip install pathlib
+pip install datetime
+pyp install webbrowser
+pip install typing
+pip install json
+pip install typing
